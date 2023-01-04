@@ -25,19 +25,21 @@ html{
 }
 
 
-music player part ->{
+music player part {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-song and the song writers -> {
+#song-name {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 
-song writers -> {
+#song-artist {
     color: #666666;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 song writers while mouseover{
@@ -56,6 +58,6 @@ song writers while mouseover{
 
 .back
 .for
-.play while mouseover -> {
+.play while mouseover {
     border-color: #bebebe;
 }
