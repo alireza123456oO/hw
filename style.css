@@ -42,7 +42,7 @@ music player part {
     text-align: center;
 }
 
-song writers while mouseover{
+#song-artist:hover {
     color: #2e2e2e;
 }
 
