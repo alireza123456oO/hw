@@ -4,17 +4,24 @@
 
 html{
     height: 100%;
-    #0046ae, #9198e5
+    background-color: #0046ae;
+    /*background-color:  #9198e5;*/
 }
 
-bigpart -> {
+#container {
     height: 400px;
     width: 270px;
-    rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674)
+    background: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    border-radius: 20px;
 }
 
-while mouseover -> {
-   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+#container:hover {
+   background: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
+
+#album {
+    width: 210px;
+    padding: 30px;
 }
 
 
